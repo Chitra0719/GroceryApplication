@@ -9,7 +9,7 @@ import utility.WaitUtility;
 
 public class LoginPage {
 public WebDriver driver;
-	WaitUtility wu;
+	WaitUtility wu= new WaitUtility();
 	public LoginPage(WebDriver driver)
 	{
 		
